@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>Servey</title>
+
+    </head>
+    <body>
+        <form action="file:///C:/Users/%EC%9D%B4%EB%8F%99%ED%9B%88/Desktop/web/welcome.html">
+            <h1>Mechanic 동아리 설문조사</h1>
+            이름: <input type="text"><br>
+            성별: 남자 <input type="radio" checked name="gender"> 여자 <input type="radio" name="gender"><br>
+            학년: <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                 </select>
+            반: <input type="text" placeholder="숫자만 입력해주세요">
+            번호: <input type="text" placeholder="숫자만 입력해주세요"><br>
+            희망 학과:
+        <ul>
+            <li>기계공학과<input type="radio" name="subject"></li>
+            <li>컴퓨터공학과<input type="radio" name="subject"></li>
+            <li>전자공학과<input type="radio" name="subject"></li>
+            <li>기타<input type="radio" name="subject"><input type="text" placeholder="여기 적어주세요"></li>
+        </ul>
+            과제 업로드: <input type="file"><br><br>
+            과제 난이도는 어땠나요?
+        <ul>
+            <li>쉬움<input type="radio" name="level"</li>
+            <li>보통<input type="radio" name="level"</li>
+            <li>어려움<input type="radio" name="level"</li>
+        </ul>
+            <textarea cols="30" rows="5" placeholder="하고싶은 말이나 의견 적어주세요"></textarea><br>
+            <input type="submit" value="제출하기">
+        </form>
+    </body>
+</html>
